@@ -1,0 +1,6 @@
+Are you sure you want to delete the Post?
+<form method="POST">
+    {% csrf_token %}
+        {{form}}
+    <button type="submit">Delete</button>
+</form>
